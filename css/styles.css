@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100&family=Fira+Sans:wght@100&display=swap');
+   
+   
+
+   body {
+       text-align: center;
+       margin-top: 0px;
+       font-family: 'Fira Sans', sans-serif;
+       font-size: 16px;
+       background-color: #fdfffa;
+       margin: 0 auto;
+       width: 100%;
+       
+   }
+
+   
+
+   header {
+       align-items: center;
+       justify-content: space-between;
+       background-color: rgb(206, 180, 206);
+   }
+
+   h1 {
+       padding-top: 15px;
+       padding-bottom: 15px;
+       margin: 0px;
+       color:royalblue;
+       font-size: 25px;
+       font-weight: bolder;
+   }
+
+   ul {
+     list-style: none;
+     text-align: center;
+     padding: 0px;
+     margin: 0px 0px 35px;
+   }
+
+   a {
+
+       
+       text-decoration: none;
+       color: black;
+      
+   }
+   
+
+   #w, #wz, #wy, #wx, button {
+      
+       text-align: center;
+       text-decoration: none;
+       color: black;
+       padding: 10px 30px;
+       margin: 4px 0px;
+       font-size: 13px;
+       font-weight: bolder;
+       
+       
+   }
+
+   footer{
+       background-color:  rgb(206, 180, 206);
+    }
+       
+  
+   article {
+       text-align: center;
+       margin: auto;
+       width: 85%;
+       padding-bottom: 20px;
+       font-family: 'Fira Sans Condensed', sans-serif;
+       padding-right: 15px;
+   }
+
+   
+   
+   .port {
+      font-size: 13px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-weight: bolder;
+      
+   }
+
+   #f, #d {
+    font-family: 'Fira Sans', sans-serif;
+   }
+
+   #con {
+      padding-top: 55px;
+      padding-bottom: 25px;
+      font-family: 'Fira Sans', sans-serif;
+     
+   }
+
+   
+   
+   .end {
+       width: 100%;
+       margin: 0px;
+       display: flex;
+       justify-content: space-between;
+       height: 70px;
+       margin: auto;
+       background-color: white;
+       
+   }
+
+   #btt, #btp {
+       
+       display: inline;
+       margin: 0px;
+       font-size: 13px;
+       vertical-align: middle;
+       line-height: 70px;
+       padding: 0px 10px;
+       
+   }  
+
+   .j
+   {
+       padding: 0px 0px 45px;
+       font-weight:lighter;
+   }
+   
+   .last {
+       padding-bottom: 10px;
+   }
+   
+   
+   #emai {
+        padding-bottom: 70px;
+   }
+
+   #pho {
+       padding-top: 22px;
+       padding-bottom: 22px;
+       
+      
+   }
+
+   .container {
+       width: 95%;
+      margin: 0px auto;
+    
+   }
+
+   p {
+       margin: auto;
+       width: 250px;
+       font-family: 'Fira Sans Condensed', sans-serif;
+   }
+
+   
+   
+   .item5 {
+       padding-bottom: 20px;
+       height: auto;
+       width: 200px;
+   }
+
+  
+   .sec-nav {
+       display: none;
+       margin-bottom: 0px;
+       font-size: 12px;
+       padding-top: 15px;
+   }
+
+   #w, #wz, #wy, #wx {
+       background-color: linen;
+   }
+
+   #wwa, #wwb, #wwc, #wwd {
+       padding: 0px 4px ; 
+       text-align: center;
+       vertical-align: middle;
+       line-height: 70px;
+      
+   }
+
+   .group {
+       color: thistle;
+   }
+
+   .main-nav {
+       padding-bottom: 35px;
+       margin-bottom: 0px;
+   }
+
+   h3 {
+       padding-top: 30px;
+       padding-bottom: 15px;
+       margin: 0px;
+       font-weight: normal;
+       
+   }
+
+   .skills {
+       margin: 0px;
+       padding: 25px 0px 0px;
+       font-size: 20px;
+       
+   }
+
+  
+   
+
+
+
+   @media (min-width: 768px ) {
+
+    .row, .container, .main-nav, .container4, .container5, .container6,  .container3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+        
+        
+    }
+
+    
+  
+        .sub, .sub3,  .sub5,  .sub7 {
+            flex: 1 38%;
+            text-align: center;
+            margin-left: 12%;
+            
+
+            
+            
+        }
+
+        .sub2, .sub4, .sub6, .sub8{
+            flex: 1 38%;
+            text-align: center;
+            margin-right: 12%;
+        }
+
+  
+        
+  
+        .container2 {
+            display: flex;
+            justify-content: center;
+            
+            
+            
+  
+        }
+  
+        
+            
+  
+        .container {
+          flex-direction: column;
+          align-items: center;
+         
+  
+        }
+
+        .item5 {
+           width: 250px;
+           height: auto;
+        }
+  
+        .item6 {
+            order: -1;
+            flex-basis: 55%;
+        }
+  
+       
+        .last {
+          justify-content: space-around;
+          width: 40%;
+          text-align: center;
+        }
+  
+        
+       .end {
+           justify-content: space-between;
+       }
+       h1 {
+        padding-top: 35px;
+    }
+
+    .main-nav {
+        
+        padding-bottom: 30px;
+    }
+
+    article {
+        margin: 0px;
+        text-align: left;
+    }
+
+    #w, #wz, #wy, #wx {
+        background-color: rgb(206, 180, 206);
+        padding: 10px 10px;
+    }
+
+    
+
+    .sec-nav {
+        display: flex;
+        padding-top: 0px;
+    }
+
+   
+
+
+    #btt {
+        display: none;
+    }
+        
+    .last {
+        width: 65%;
+
+   }
+
+   .end {
+       height: 100px;
+   }
+
+}
+
+    
+   
+   
+
+
+  
+  
+
+  
+
+ 
+  
+
+
+   @media (min-width: 1024px ) {
+
+    .end {
+        height: 70px;
+    }
+
+    .item5 {
+        width: 300px;
+        height: auto;
+    }
+
+    .item6 {
+        flex-basis: 50%;
+        padding-right: 40px;
+    }
+
+
+    #w, #wy, #wz, #wx {
+        padding-top: 35px;
+        margin: 0px;
+    }
+
+
+    .sub, .sub2, .sub3, .sub4, .sub5, .sub6{
+        flex: 1 33%;
+        margin: 0px;
+    }
+
+    .container {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+   
+
+    .cba {
+        display: flex;
+    }
+
+    .abc {
+        display: flex;
+    }
+
+    
+    .main-nav {
+        margin: 0px;
+    }
+
+    h1 {
+        padding-bottom: 40px;
+    }
+
+    .container {
+        width: 85%;
+        margin: 0 auto;
+          
+      }
+
+      .item5 {
+          height: 192px;
+          width: 330px;
+          padding-bottom: 0px;
+          
+      }
+
+      .item6 {
+          padding-top: 0px;
+      }
+    
+
+
+   }
+
+
+
+
+
+   
+
+
+
+
+
+
+    
+
+
+   
+
+  
+   
+   
+
+  
